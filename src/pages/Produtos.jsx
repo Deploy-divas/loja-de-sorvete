@@ -17,6 +17,16 @@ export default function Produtos() {
       <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {produtos.map((produto) => <Card key={produto.id} {...produto} />)}
       </div>
+      <div className="mt-8 rounded-lg border border-pink-200 bg-white p-5 text-center">
+        <h2 className="text-lg font-bold text-pink-700">
+          Monte sua combinação!
+        </h2>
+      
+        <p className="mt-2 text-stone-600">
+          Você pode combinar diferentes sabores na mesma casquinha.
+          O valor é calculado por bola de sorvete.
+        </p>
+      </div>
     </section>
   );
 }
