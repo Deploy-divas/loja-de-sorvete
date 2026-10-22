@@ -1,7 +1,6 @@
 const links = [
     { label: 'Home', href: '#home' },
     { label: 'Produtos', href: '#produtos' },
-
 ]
 
 
@@ -19,7 +18,8 @@ export default function Footer() {
                     >
                         <span className="text-8xl mb-7">🍦</span>
                     </a>
-                    <p className="text-gourmet-cream text-base max-w-md">Sorvetes deliciosos para tranformar a sua sobremesa do dia a dia em uma experiência especial.</p>
+
+                    <p className="text-gourmet-cream text-base max-w-md">Sabores da Itália direto pra sua casa, com ingredientes selecionados e entregues fresquinhos para transformar cada refeição em uma experiência especial.</p>
                 </div>
 
                 <nav className="flex flex-col justify-center items-center text-center">
