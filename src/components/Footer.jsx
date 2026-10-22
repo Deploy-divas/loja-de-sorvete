@@ -1,9 +1,7 @@
 const links = [
-    { label: 'Início', href: '#inicio' },
-    { label: 'Apresentação', href: '#apresentacao' },
-    { label: 'Funcionalidades', href: '#funcionalidades' },
-    { label: 'Depoimentos', href: '#depoimentos' },
-    { label: 'Inscrição', href: '#newsletter' },
+    { label: 'Home', href: '#home' },
+    { label: 'Produtos', href: '#produtos' },
+
 ]
 
 
@@ -21,7 +19,7 @@ export default function Footer() {
                     >
                         <span className="text-8xl mb-7">🍦</span>
                     </a>
-                    <p className="text-gourmet-cream text-base max-w-md">Sabores da Itália direto pra sua casa, com ingredientes selecionados e entregues fresquinhos para transformar cada refeição em uma experiência especial.</p>
+                    <p className="text-gourmet-cream text-base max-w-md">Sorvetes deliciosos para tranformar a sua sobremesa do dia a dia em uma experiência especial.</p>
                 </div>
 
                 <nav className="flex flex-col justify-center items-center text-center">
@@ -50,7 +48,7 @@ export default function Footer() {
 
             <div className="border-t border-gourmet-cream/20 mt-6 pt-5" />
 
-            <p className="text-gourmet-cream/50 text-sm text-center">© 2026 GourmetOn. Todos os direitos reservados.</p>
+            <p className="text-gourmet-cream/50 text-sm text-center">© 2026 Sorveteria. Todos os direitos reservados.</p>
 
         </footer>
     )
