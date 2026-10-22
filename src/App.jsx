@@ -3,6 +3,7 @@ import Error from "./pages/Error";
 import Produtos from "./pages/Produtos";
 import Home from "./pages/Home";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
           <Route path="/produtos" element={<Produtos />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
