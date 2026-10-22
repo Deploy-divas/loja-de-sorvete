@@ -1,8 +1,7 @@
-CHECKPOINT 5 - WEB DEVELOPMENT - 1ESPI
+CHECKPOINT 5 - FRONT-END - 1ESPI
 
-Integrante 1 (Tech Lead): PREENCHER NOME COMPLETO | RM: PREENCHER
-Integrante 2: PREENCHER NOME COMPLETO | RM: PREENCHER
-Integrante 3: PREENCHER NOME COMPLETO | RM: PREENCHER
-Integrante 4 (somente se houver): PREENCHER OU REMOVER ESTA LINHA
+Amanda Silva | RM: 572585
+Beatriz Mantovani | RM: 573824
+Laura Sampaio | RM: 570802
 
-Link do repositório público da organização: PREENCHER
+https://github.com/Deploy-divas/loja-de-sorvete
